@@ -2,26 +2,19 @@
     Project Planning
     (프로젝트 기획 문서 작성)
     ↓
-    Use Case / Detailed Specification
-    (유즈케이스 / 상세 명세)
+    Use Case scenario
+    (유즈케이스 시나리오 작성) * 다만 해당 단계는 상황에 따라 상세 명세에 편입될 수 있음
+    ↓
+    Detailed Specification
+    (상세 명세)
     ├─ Actor
     ├─ Trigger
     ├─ Precondition
     ├─ Main Flow
     ├─ Alternative / Exception Flow
     ├─ Postcondition
+    ├─ Business / Data Rules
     └─ Acceptance Criteria (필요 시)
-    ↓
-    Constraint
-    (제약 조건)
-    ├─ Business Constraint
-    ├─ Platform Constraint
-    ├─ Security Constraint
-    ├─ Performance Constraint
-    └─ Technical Constraint
-    ↓
-    Architecture
-    (상위 아키텍처)
     ↓
     Domain Model
     (도메인 개념 모델)
@@ -55,7 +48,7 @@
     Measurement
     (측정)
     ↓
-    Architecture / Design Revision
+    Architecture / Design Revision ** 아키텍쳐 문서는 프로젝트 전반에서 지속적으로 작성 및 갱신할 것
     (아키텍처·설계 수정)
 
 작업자의 역할 :
@@ -64,16 +57,18 @@
     Constraint (제약사항)
     -> 상세 명세 작성
 
-    Architecture (아키텍처 설계)
-    Invariant (불변 조건)
-    Acceptance Criteria (인수 조건 / 완료 기준)
-    Task Decomposition (작업 분할)
+```
+Architecture (아키텍처 설계)
+Invariant (불변 조건)
+Acceptance Criteria (인수 조건 / 완료 기준)
+Task Decomposition (작업 분할)
 
-    AI Agent (AI 에이전트 사용)
+AI Agent (AI 에이전트 사용)
 
-    Verification (검증)
-    Measurement (측정)
-    Architecture 수정 (아키텍처 개선/수정)
+Verification (검증)
+Measurement (측정)
+Architecture 수정 (아키텍처 개선/수정)
+```
 
 AI의 역할 :
     Implementation (구현)
