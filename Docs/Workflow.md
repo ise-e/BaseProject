@@ -36,7 +36,7 @@
     Test Design
     (테스트 설계)
     ↓
-    Task Decomposition
+    Task Decomposition (마일스톤 작성)
     (작업 분해)
     ↓
     AI Implementation
