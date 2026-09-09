@@ -1,6 +1,9 @@
 기본적인 작업 프로세스 :
     Project Planning
     (프로젝트 기획 문서 작성)
+    ├─ Problem
+    ├─ Requirement
+    └─ Constraint
     ↓
     Use Case scenario
     (유즈케이스 시나리오 작성) * 다만 해당 단계는 상황에 따라 상세 명세에 편입될 수 있음
@@ -19,7 +22,7 @@
     Domain Model
     (도메인 개념 모델)
     ↓
-    Invariant
+    Invariant (도메인 문서와 통합)
     (불변 조건)
     ↓
     Dynamic Design
@@ -27,7 +30,7 @@
     ├─ Sequence Diagram
     └─ State Diagram
     ↓
-    Responsibility Assignment
+    Responsibility Assignment (도메인 문서와 통합)
     (책임 할당)
     ↓
     Design Class Diagram
